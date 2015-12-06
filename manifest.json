@@ -1,0 +1,28 @@
+{
+	"manifest_version" : 2,
+	"name" : "TEST WebExtension",
+	"version" : "1.0",
+
+	"applications" : {
+		"gecko" : {
+			"id" : "webextension@filewo.net"
+		}
+	},
+
+	"permissions" : [
+		"http://*/*",
+		"https://*/*"
+	],
+
+	"browser_action" : {
+		"default_icon" : "images/logo.png",
+		"default_title" : "webextension_selection",
+		"default_popup" : "popup/selection.html"
+	},
+
+	"web_accessible_resources" : [
+		"webaccesible/cat1.jpg",
+		"webaccesible/cat2.jpg",
+		"webaccesible/cat3.jpg"
+	]
+}
