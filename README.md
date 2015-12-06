@@ -1,0 +1,2 @@
+* WebExtension test repository
+
