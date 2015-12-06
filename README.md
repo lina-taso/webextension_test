@@ -1,2 +1,2 @@
-* WebExtension test repository
+# WebExtension test repository
 
